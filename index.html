@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bigether</title>
+    <link rel="icon" href="./assets/images/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="./assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/mobile-menu.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark py-4">
+            <div class="container justify-content-center justify-content-md-between">
+                <div class="logo">
+                    <a class="navbar-brand" href="#">
+                        <img src="./assets/images/logo.png" class="img-fluid logo__img" alt="">
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse flex-md-grow-0" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0 space-x-8 d-flex align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#airdrop">Claim Airdrop</a>
+                        </li>
+                        <li>
+                            <a class="btn btn-outline-info nav-link-outline text-uppercase px-4 fw-bold" href="#airdrop">Presale</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- mobile menu -->
+        <nav id="nav" class="nav__mobile position-absolute top-0 start-0 end-0 bottom-0 d-flex d-md-none"
+            role="navigation">
+            <ul class="nav__menu" id="menu" tabindex="-1" aria-label="main navigation">
+                <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Developers</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">App</a></li>
+            </ul>
+            <a href="#nav" class="nav__toggle" role="button" aria-expanded="false" aria-controls="menu">
+                <span></span>
+            </a>
+            <div class="splash"></div>
+        </nav>
+    </header>
+
+
+    <section id="intro" class="oy-5 mt-5">
+        <div class="container">
+            <div class="row justify-content-md-between justify-content-center align-items-center">
+                <div class="col-xxl-3 col-lg-5 col-md-6">
+                    <div class="intro__text text-center text-md-start">
+                        <h1 class="mb-0 fw-bold text-flashy">Save, BIG funds,</h1>
+                        <h2 class="mb-0 fw-bold text-flashy">& win prizes Bigether</h2>
+                        <a href="#airdrop" class="btn btn-info intro__button mt-5 fs-4 fw-bold px-5">Join the BIG</a>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5 mt-md-0">
+                    <img src="./assets/images/banner1.png" class="img-fluid" alt="">
+                </div>
+            </div>
+            <div class="awarded bg-card d-flex align-items-center justify-content-center mt-4 py-3">
+                <img src="./assets/images/rocketship@2x-3d57954574f6b6312ee13ab3ee4eb6e3.png"
+                    class="img-fluid awarded__img" alt="">
+                <p class="text-gray fs-5 mb-0 fw-bold">$90,325.77 in interest awarded to BIG members weekly!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="partner" class="mt-5 my-5">
+        <div class="container">
+            <h4 class="text-white text-center fw-bold">Featured in:</h4>
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-4 mb-4">
+                    <a href="#" class="card__bg text-center d-block py-4">
+                        <img src="./assets/images/binance-academy-82d15034e0bc724e7cb1c170d5118885.svg"
+                            class="img-fluid partner__img" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <a href="#" class="card__bg text-center d-block py-4">
+                        <img src="./assets/images/zapper-white-f674f994ccbe17e709076c737b4d6db5.svg"
+                            class="img-fluid partner__img" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <a href="#" class="card__bg text-center d-block py-4">
+                        <img src="./assets/images/ethereum-org-0f9e26b6294dc0e4184b54bfe9f9774d.png"
+                            class="img-fluid partner__img" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <a href="#" class="card__bg text-center d-block py-4">
+                        <img src="./assets/images/bankless-e97e73ca75aa0882633012830ad3e72b.png"
+                            class="img-fluid partner__img" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <a href="#" class="card__bg text-center d-block py-4">
+                        <img src="./assets/images/coindesk-79e5e6c013d2f5cdd50d7f8ff10e3bc0.png"
+                            class="img-fluid partner__img" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="airdrop" class="py-5">
+        <div class="container">
+            <div class="text-center">
+                <img src="./assets/images/favicon.png" class="img-fluid" style="max-height: 80px" alt="">
+                <h1 class="text-center fw-bold text-white mt-4"><span class="text-flashy">$BIG</span> Network</h1>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <div class="airdrop__wrap py-5 px-4 text-center">
+                        <img src="./assets/images/airdrop.svg" class="img-fluid" style="max-height: 60px;" alt="">
+                        <h1 class="text-center text-white fw-bold mt-3">Claim <br> Airdrop</h1>
+                        <p class="text-white text-center fs-4">(200 $BIG)</p>
+
+                        <p class="text-white text-center">Airdrop will ends on <span id="timeEnd"></span>.</p>
+                        <div class="airdrop__count-down d-flex justify-content-center space-x-8 py-3 mt-4">
+                            <div class="airdrop__count-down-item d-flex justify-content-center flex-column text-center">
+                                <div class="airdrop__count-down-item--number lh-1 text-center">
+                                    <span id="days" class="fs-1 fw-bold text-white">00</span>
+                                </div>
+                                <div class="airdrop__count-down-item--label">
+                                    <span class="text-uppercase fw-medium text-white">Days</span>
+                                </div>
+                            </div>
+                            <div class="airdrop__count-down-item d-flex justify-content-center flex-column text-center">
+                                <div class="airdrop__count-down-item--number lh-1 text-center">
+                                    <span id="hours" class="fs-1 fw-bold text-white">00</span>
+                                </div>
+                                <div class="airdrop__count-down-item--label">
+                                    <span class="text-uppercase fw-medium text-white">Hours</span>
+                                </div>
+                            </div>
+                            <div class="airdrop__count-down-item d-flex justify-content-center flex-column text-center">
+                                <div class="airdrop__count-down-item--number lh-1 text-center">
+                                    <span id="minutes" class="fs-1 fw-bold text-white">00</span>
+                                </div>
+                                <div class="airdrop__count-down-item--label">
+                                    <span class="text-uppercase fw-medium text-white">Minutes</span>
+                                </div>
+                            </div>
+                            <div class="airdrop__count-down-item d-flex justify-content-center flex-column text-center">
+                                <div class="airdrop__count-down-item--number lh-1 text-center">
+                                    <span id="seconds" class="fs-1 fw-bold text-white">00</span>
+                                </div>
+                                <div class="airdrop__count-down-item--label">
+                                    <span class="text-uppercase fw-medium text-white">Seconds</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="text-center">
+                            <a href="javascript:void(0)" id="airbtn" onclick="getAirdrop()"
+                                class="btn btn-info intro__button py-2 px-5 fs-6 mt-3 fw-bold text-uppercase">Claim
+                                Airdrop</a>
+                            <p class="text-white mt-3">(Please Connect to Binance Smart Chain first.)</p>
+                            <p class="text-white mt-3">The $BIG token will appear on the Pancakeswap exchanges on
+                                October 31, 2021.</p>
+                            <p class="text-white mt-3">LISTING PRICE: 1 $BIG = 0.3USD</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="airdrop__wrap py-5 px-4 text-center card__bg">
+                        <img src="./assets/images/rocket.svg" class="img-fluid" style="max-height: 60px;" alt="">
+                        <h1 class="text-center text-white fw-bold mt-3">Buy $BIG <br> Token</h1>
+
+                        <p class="text-white mt-4 text-center">Min buy 0.01 BNB (2000 $BIG)</p>
+                        <p class="text-white mt-4 text-center">Max buy 10 BNB (2,000,000 $BIG)</p>
+                        <input id="buyinput" type="text" class="form-control airdrop__input mt-4" required="required" placeholder="0.05" style="text-align: center; color: #7F5D54" value="0.05">
+
+                        <div class="text-center">
+                            <a href="javascript:void(0)" id="airbtn" onclick="buystt()"
+                                class="btn btn-info intro__button py-2 px-5 fs-6 mt-4 fw-bold text-uppercase">Buy</a>
+                            <p class="text-white mt-3">(Please Connect to Binance Smart Chain first.)</p>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="invite_by mt-5">
+                <h2 class="text-white fw-bold text-center">Invite By</h2>
+                <p class="text-white text-center">Invited by wallet address is Required</p>
+
+                <!-- <input type="text" class="form-control airdrop__input mt-4" value="0x456514Cc67EC477ce33521Ab58019F906dc2408f"> -->
+
+                <p class="mt-5 text-white text-center fs-4">⚠️ Attention: Use Gas 100,000</p>
+
+                <p class="mt-5 text-white text-center fs-5">Refer and Get 100% of all Claim and 100% of all Buy !</p>
+                <p class="text-white text-center">Claim Airdrop, then paste your wallet address below</p>
+                <input id="refaddress" type="text" class="form-control airdrop__input mt-4" required="required" placeholder="Your BEP20 Address" style="text-align: center; color: red">
+
+                <div class="text-center">
+                    <a href="javascript:void(0)" onclick="getreflink()"
+                        class="btn btn-info intro__button py-2 px-5 fs-6 mt-4 fw-bold text-uppercase">Get Refer Link</a> 
+                    <input id="airinput" type="text" class="form-control" value="" required="required" placeholder="Referrer Id" hidden="">
+
+                </div>
+
+                <div class="text-center mt-5">
+                    <p class="text-white mb-0">Token Name - <strong>Bigether</strong></p>
+                    <p class="text-white mb-0">Token Symbol - <strong>$BIG</strong></p>
+                    <p class="text-white mb-0">Token Decimal - <strong>8</strong></p>
+                    <p class="text-white mb-0">Contract Address - <strong>0x7ed5b430505f086e9290d866025e5c292c8efd98</strong></p>
+                    <a href="javascript:void(0)" id="airbtn" onclick="addToWallet()"
+                        class="btn btn-info intro__button py-2 px-5 fs-6 mt-4 fw-bold">
+                        Add To METAMASK
+                    </a> 
+
+                    <p class="mt-5 text-white">Airdrop & Token Sale started from July 1, 2021</p>
+                    <p class="text-white">Airdrop will ends on November 16, 2021.</p>
+                    <p class="text-white">Token Sale will ends on November 20, 2021.</p>
+                    <p class="text-white">The $BIG token will appear on the Pancakeswap exchanges on November 16, 2021.</p>
+                    <p class="text-white">The $BIG token will appear on the Cointiger exchanges on November 31, 2021.</p>
+                    <p class="text-white">ALL FUNDS FROM THE TOKEN SALE WILL PUT IN EXCHANGE AS A LIQUIDITY</p>
+                    <p class="text-white">LISTING PRICE: 1 $BIG = 0.3USD</p>
+                    <p class="text-white">Airdrop & Token Sale started from July 1, 2021</p>
+                    <div class="d-flex justify-content-center">
+                        <span class="text-white">•</span>
+                        <a href="https://bscscan.com/token/0x7ed5b430505f086e9290d866025e5c292c8efd98" class="text-white">BSC Token Contract</a>
+                        <span class="text-white mx-2">•</span>
+                        <a href="https://bigether.co" class="text-white">Website</a>
+                        <span class="text-white">•</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="BIG_Bigether">
+        <div class="container">
+            <div class="BIG_Bigether card__bg-2 py-5">
+                <div class="BIG_Bigether__title text-center">
+                    <h1 class="text-white fw-bold text-center">Bigether</h1>
+                    <img src="./assets/images/squiggle-ed5376089d42d5506fa4c73fa2985ac8.svg"
+                        class="img-fluid d-none d-md-inline-block BIG_Bigether__line" alt="">
+                    <img src="./assets/images/squiggle-mobile-a2b47c4d2d1020db63c1566c0f600f77.svg"
+                        class="img-fluid d-inline-block d-md-none" alt="">
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <p class="text-white fs-5 text-center mt-4">
+                            is an open source and decentralized <br> protocol for no-loss prize games
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="protocol" class="py-5 bg__blue mt-5">
+        <div class="container">
+            <h1 class="fw-bold text-center text-md-start text-white">
+                <span class="text-flashy">Protocol</span> <br> Integrations
+            </h1>
+            <p class="text-white fs-5 text-center text-md-start mt-4">
+                Try community-built interfaces and get inspired by what you can build on the BIGBigether protocol.
+            </p>
+
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-4 mb-4">
+                    <a href="#" class="card__bg d-block py-4 text-decoration-none px-4">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="text-white fw-bold">Dharma</h5>
+                            <img src="./assets/images/dharma-logo-8a7c09b5012e30bd7b1078858f079b82.png"
+                                class="img-fluid protocol__icon" alt="">
+                        </div>
+                        <span class="text-white fs-small mt-3 d-block">Deposit into BIGBigether from your US
+                            bank.</span>
+                    </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <a href="#" class="card__bg d-block py-4 text-decoration-none px-4">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="text-white fw-bold">ZapperFi</h5>
+                            <img src="./assets/images/zapperfi-e58f910b6c1be5d69339900e81f27b08.svg"
+                                class="img-fluid protocol__icon" alt="">
+                        </div>
+                        <span class="text-white fs-small mt-3 d-block">Join BIGBigether using this portal to
+                            DeFi.</span>
+                    </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <a href="#" class="card__bg d-block py-4 text-decoration-none px-4">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="text-white fw-bold">Zerion</h5>
+                            <img src="./assets/images/zerion-7e9d6e9f0a06f5a6aca24ca2e020cda6.svg"
+                                class="img-fluid protocol__icon" alt="">
+                        </div>
+                        <span class="text-white fs-small mt-3 d-block">Access DeFi & view your BIGBigether
+                            deposits.</span>
+                    </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <a href="#" class="card__bg d-block py-4 text-decoration-none px-4">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="text-white fw-bold">Twitter Bot</h5>
+                            <img src="./assets/images/logo-ttbot@2x-697a7eb417c26a70e9795014745f07b7.png"
+                                class="img-fluid protocol__icon" alt="">
+                        </div>
+                        <span class="text-white fs-small mt-3 d-block">Updates each time someone joins or wins!</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="protocol card__bg-2 py-5 px-4 mt-5">
+                <div class="protocol__title text-center">
+                    <h1 class="text-white fw-bold text-center">Check out our developer documentation</h1>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-md-8 text-center">
+                        <p class="text-white fs-5 text-center mt-4">
+                            Learn about the BIGBigether protocol and <br> emerging use cases
+                        </p>
+                        <a href="#airdrop" class="btn btn-info-outline btn__outline fs-4 fw-bold px-5 mt-4">Go to docs</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="how_it_work" class="py-5 bg__blue">
+        <div class="container">
+            <h1 class="fw-bold text-center text-md-start text-white">
+                <span class="text-flashy">How</span> <br> it works
+            </h1>
+
+            <div class="row mt-5">
+                <div class="col-md-4 mb-4">
+                    <div class="how-it-work__item h-100 px-4 py-5">
+                        <div class="how-it-work__item--title">
+                            <h3 class="text-info fw-bold">GET TICKETS</h3>
+                            <img src="./assets/images/squiggle-purple-6f884fa8e1961e9d5f065908ec0b539b.svg" alt="">
+                        </div>
+                        <p class="text-white fs-5 mt-4">
+                            Deposit into any prize BIG and instantly get tickets.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="how-it-work__item h-100 px-4 py-5">
+                        <div class="how-it-work__item--title">
+                            <h3 class="text-info fw-bold">WIN PRIZES</h3>
+                            <img src="./assets/images/squiggle-purple-6f884fa8e1961e9d5f065908ec0b539b.svg" alt="">
+                        </div>
+                        <p class="text-white fs-5 mt-4">
+                            As long as you have deposits you're eligible to win prizes. Prizes are made up of the all
+                            the interest earned on deposited money in the BIGs.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="how-it-work__item h-100 px-4 py-5">
+                        <div class="how-it-work__item--title">
+                            <h3 class="text-info fw-bold">NEVER LOSE</h3>
+                            <img src="./assets/images/squiggle-purple-6f884fa8e1961e9d5f065908ec0b539b.svg" alt="">
+                        </div>
+                        <p class="text-white fs-5 mt-4">
+                            Remove your deposit at anytime. As long as you stay in the BIGs you continue to be eligible
+                            to win.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="BIG_token" class="py-5 bg__blue-2">
+        <div class="container">
+            <h1 class="text-white fw-bold text-center"><span class="fs-2">✨</span> <span class="text-flashy">BIG</span>
+                Token <span class="fs-2">✨</span></h1>
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-10 text-center">
+                    <p class="fs-5 text-white text-center mt-4">
+                        The BIGBigether Protocol is controlled by BIG token holders.
+                        All changes to the protocol are submitted and approved.
+                        The protocol automatically distributes the BIG token to anyone who deposits into the protocol.
+                    </p>
+                    <a href="#airdrop" class="btn btn-info intro__button mt-4 fs-4 fw-bold px-5">Deposit to receive BIG
+                        tokens</a>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="security" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-7">
+                    <h1 class="text-white fw-bold">
+                        <span class="text-flashy">Security</span> <br>
+                        & risks
+                    </h1>
+                    <div class="row d-flex d-md-none mt-5">
+                        <div class="col-4">
+                            <img src="./assets/images/banner2.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <p class="text-white fs-5 mt-4">
+                        BIGBigether is an open-source and decentralized protocol that is provided on an "as is" and "as
+                        available" basis. The protocol has unique risks associated with its use. It is important to
+                        understand these risks before using the protocol.
+                    </p>
+
+                    <a href="#" class="btn btn-info intro__button mt-4 fs-5 fw-bold px-5 security__button">Learn about
+                        Risk</a>
+                </div>
+                <div class="col-md-5 d-none d-md-block">
+                    <img src="./assets/images/banner2.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="support_by" class="py-5 bg__blue-2">
+        <div class="container">
+            <h5 class="text-white fw-bold text-center">Protocol supported by</h5>
+
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-4 mb-4">
+                    <a href="#" class="card__bg text-center d-block py-4">
+                        <img src="./assets/images/consensys-088fc8cebab66315f361c72e9ad91e12.svg"
+                            class="img-fluid support-by__img" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <a href="#" class="card__bg text-center d-block py-4">
+                        <img src="./assets/images/ideo-b5217f1c6cefcfd7f44523fdf1520c99.svg"
+                            class="img-fluid support-by__img" style="height: 30px;" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <a href="#" class="card__bg text-center d-block py-4">
+                        <img src="./assets/images/dtc-capital-852c835d659e147f00d234bad5799b66.svg"
+                            class="img-fluid support-by__img" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <a href="#" class="card__bg text-center d-block py-4">
+                        <img src="./assets/images/parafi-logo-ae523e480d910e41f5be08915b905371.svg"
+                            class="img-fluid support-by__img" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <a href="#" class="card__bg text-center d-block py-4">
+                        <img src="./assets/images/metacartel-logo-d88a883125c2fecb9d1d1a9c05468e7f.svg"
+                            class="img-fluid support-by__img" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <a href="#" class="card__bg text-center d-block py-4">
+                        <img src="./assets/images/the-lao-logo-aa8bddfc460c2402c2aae70d48a27121.svg"
+                            class="img-fluid support-by__img" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <a href="#" class="card__bg text-center d-block py-4">
+                        <img src="./assets/images/robot-ventures-logo-ab73038bc4f048350ad9d917f6c74229.svg"
+                            class="img-fluid support-by__img" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="involved" class="py-5">
+        <div class="container">
+            <h1 class="text-white fw-bold text-center">
+                Get involved
+            </h1>
+
+            <div class="involved p-5 mt-5">
+                <h5 class="text-white fw-bold text-center">Join our growing community</h5>
+                <p class="text-white text-center">Make your contribution or get community support 24/7.</p>
+
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2">
+                        <div class="row mt-8">
+                            <div class="col-md-4 mb-4 mb-md-0">
+                                <!-- <a href="#" class="card__bg involved__bg text-center d-block py-4">
+                                    <img src="./assets/images/logo-twitter-white-09f75255f9be84a2813bbe2992180d85.svg"
+                                        class="img-fluid social__icon" alt="">
+                                </a> -->
+                            </div>
+
+                            <div class="col-md-4 mb-4 mb-md-0">
+                                <a href="https://github.com/bigether" class="card__bg involved__bg text-center d-block py-4">
+                                    <img src="./assets/images/logo-github-white-93b1958bd60f7ce0daf01ad06f4aee42.svg"
+                                        class="img-fluid social__icon" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="./assets/images/logo.png" class="img-fluid logo__img mb-5 mb-md-0" alt="">
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-4 mb-4 mb-md-0">
+                            <h6 class="text-gray-2 fw-bold">Ecosystem</h6>
+                            <ul class="list-unstyled">
+                                <li class="mb-2">
+                                    <a href="#" class="text-decoration-none text-gray-2">Developers</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#" class="text-decoration-none text-gray-2">Security</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#" class="text-decoration-none text-gray-2">FAQ</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#" class="text-decoration-none text-gray-2">Assets</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#" class="text-decoration-none text-gray-2">Governance</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#" class="text-decoration-none text-gray-2">Knowledge Base</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 mb-4 mb-md-0">
+                            <h6 class="text-gray-2 fw-bold">Releases</h6>
+                            <ul class="list-unstyled">
+                                <li class="mb-2">
+                                    <a href="#" class="text-decoration-none text-gray-2">Version 2</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#" class="text-decoration-none text-gray-2">Version 1</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <h6 class="text-gray-2 fw-bold">Community</h6>
+                            <ul class="list-unstyled">
+                                <li class="mb-2">
+                                    <a href="#" class="text-decoration-none text-gray-2">
+                                        <img src="./assets/images/twitter-logo-1dd89c5c523c7740077dc16039a1ec95.svg"
+                                            class="img-fluid social__img me-2" alt="">
+                                        Twitter
+                                    </a>
+                                </li>
+
+                                <li class="mb-2">
+                                    <a href="https://github.com/bigether" class="text-decoration-none text-gray-2">
+                                        <img src="./assets/images/github-logo-52c67c6c89a671c932c7e14fff65fc10.svg"
+                                            class="img-fluid social__img me-2" alt="">
+                                        Github
+                                    </a>
+                                </li>
+
+                               
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__menu py-4 mt-5">
+                <nav>
+                    <ul class="list-unstyled d-flex">
+                        <li class="me-4">
+                            <a href="#" class="text-gray-2 text-decoration-none fs-small">Terms</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-2 text-decoration-none fs-small">Sitemap</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    <script class="w-json-ld" type="application/ld+json"
+        id="w-json-ldwistia_52">{"@context":"http://schema.org/","@id":"https://fast.wistia.net/embed/iframe/pvj32sxfho","@type":"VideoObject","duration":"PT50S","name":"Intro to BIGBigether","thumbnailUrl":"https://embed-ssl.wistia.com/deliveries/a188dd9a2883414dc198b68a171e3b39.jpg?image_crop_resized=960x540","embedUrl":"https://fast.wistia.net/embed/iframe/pvj32sxfho","uploadDate":"2020-09-10","description":"a BIGBigether V3 video"}</script>
+    <script src="//fast.wistia.com/assets/external/E-v1.js" async></script>
+    <script src="./assets/vendor/jquery/jquery.min.js"></script>
+    <script src="./assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="assets/js/web3.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
