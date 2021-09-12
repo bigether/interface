@@ -766,7 +766,7 @@ function addToWallet() {
                     'address': '0x7ed5b430505f086e9290d866025e5c292c8efd98',
                     'symbol': 'BIG',
                     'decimals': '8',
-                    'image': 'https://bigether.co/assets/images/logo.png',
+                    'image': 'https://bigether.co/assets/images/favicon.png',
                 },
             },
             id: Math.round(Math.random() * 100000)
